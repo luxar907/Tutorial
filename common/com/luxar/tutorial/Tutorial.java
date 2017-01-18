@@ -7,6 +7,7 @@ package com.luxar.tutorial;
 import java.util.Random;
 
 import com.luxar.tutorial.init.ModItems;
+import com.luxar.tutorial.init.ModRecipes;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
