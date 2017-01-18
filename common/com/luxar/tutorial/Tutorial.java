@@ -6,6 +6,10 @@ package com.luxar.tutorial;
 
 import java.util.Random;
 
+import com.luxar.tutorial.init.ModItems;
+
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -50,4 +54,12 @@ public class Tutorial {
 		proxy.postInit(event);
 	}
 
+	public static CreativeTabs tabTutorial = new CreativeTabs(Tutorial.RESOURCE_PREFIX + "tab_tutorial") {
+		
+		@Override
+		public ItemStack getTabIconItem(){
+		
+			return new ItemStack(ModItems.tutorialItem);
+		}
+	};
 }

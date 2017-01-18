@@ -1,1 +1,11 @@
+# Blocks
+
+
+
+# Items
+
 item.tutorial:tutorial_item.name=Tutorial Item
+
+# Creative Tab
+
+itemGroup.tutorial:creative_tab=Tutorial Mod

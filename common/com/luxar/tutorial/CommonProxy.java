@@ -1,6 +1,7 @@
 package com.luxar.tutorial;
 
 import com.luxar.tutorial.init.ModItems;
+import com.luxar.tutorial.init.ModRecipes;
 
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
@@ -15,6 +16,7 @@ public class CommonProxy {
 
 	public void init(FMLInitializationEvent event){
 		
+		ModRecipes.init();
 	}
 
 	public void postInit(FMLPostInitializationEvent event){

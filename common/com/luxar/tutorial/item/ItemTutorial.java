@@ -14,8 +14,8 @@ import net.minecraft.world.World;
 
 public class ItemTutorial extends Item {
 	
-    public ItemTutorial()
-    {
+    public ItemTutorial() {
+    	
         this.setCreativeTab(CreativeTabs.TOOLS);
     }
 
